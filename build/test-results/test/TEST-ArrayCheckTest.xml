@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ArrayCheckTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-04-02T18:36:55" hostname="grant-Lenovo-Z580" time="7.202">
+  <properties/>
+  <testcase name="intArrayCheckTest" classname="ArrayCheckTest" time="7.202"/>
+  <system-out><![CDATA[256638974
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
