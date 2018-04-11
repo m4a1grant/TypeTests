@@ -1,1 +1,1 @@
-typeSearchIndex = [{"p":"<Unnamed>","l":"ArrayCheck"},{"p":"<Unnamed>","l":"Money"},{"p":"<Unnamed>","l":"StringCheck"}]
+typeSearchIndex = [{"p":"<Unnamed>","l":"ArrayCheck"},{"p":"<Unnamed>","l":"CheckFuncProvider"},{"p":"<Unnamed>","l":"Money"},{"p":"<Unnamed>","l":"StringCheck"}]

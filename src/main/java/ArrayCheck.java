@@ -1,33 +1,31 @@
 /**
- * Class for a task 1
- *
- *
+ * The {@code ArrayCheck} class
  */
 
 
 public class ArrayCheck {
-//    long maxMemory = Runtime.getRuntime().maxMemory();
-//    long totalMemory = Runtime.getRuntime().totalMemory();
-//    long freeMemory = Runtime.getRuntime().freeMemory();
 
-    public void intArrayCheck(int leftBorder, int rightBorder){
+    /**
+     *
+     * @param leftBorder
+     * @param rightBorder
+     * @param func
+     * @return
+     */
+
+    public int arrayCheck(int leftBorder, int rightBorder, CheckFunc func){
         int mid = leftBorder + (rightBorder - leftBorder) / 2;
+        int answ = 0;
         if(leftBorder != rightBorder){
-            if(arrInit(mid)){
-                intArrayCheck(leftBorder, mid - 1);
+            if(func.check(mid)){
+                answ = arrayCheck(leftBorder, mid - 1, func);
             } else {
-                intArrayCheck(mid+1, rightBorder);
+                answ = arrayCheck(mid+1, rightBorder, func);
             }
-        } else System.out.println(rightBorder);
-        
+        } else answ = rightBorder;
+        return answ;
     }
 
-    public boolean arrInit(int range){
-        try{
-            double [] arr = new double[range];
-            return false;
-        }catch (OutOfMemoryError ooem){
-            return true;
-        }
-    }
+
+
 }

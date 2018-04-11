@@ -4,5 +4,6 @@
 -quiet 
 -windowtitle 'TypeTests API'
 '/home/grant/Documents/JavaCources/TypeTests/src/main/java/ArrayCheck.java'
+'/home/grant/Documents/JavaCources/TypeTests/src/main/java/CheckFuncProvider.java'
 '/home/grant/Documents/JavaCources/TypeTests/src/main/java/StringCheck.java'
 '/home/grant/Documents/JavaCources/TypeTests/src/main/java/Money.java'
